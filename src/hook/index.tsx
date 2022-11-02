@@ -2,7 +2,7 @@ import {useState} from "react";
 
 export const useFormQuery = () => {
 
-    const [query, setQuery] = useState("")
+    const [query, setQuery] = useState("")//coin search
 
     const handleSubmit = ( e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
@@ -14,6 +14,7 @@ export const useFormQuery = () => {
     
         target.reset()
         target.focus()
+       
     }
 return {
     query, handleSubmit

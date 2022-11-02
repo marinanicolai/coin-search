@@ -1,4 +1,4 @@
-import { Card} from "./Card";
+import { Coin} from "./Coin";
 
 interface ICoinResults {
     query: string

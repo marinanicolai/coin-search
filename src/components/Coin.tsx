@@ -1,10 +1,10 @@
 import { Result} from "../interfaces"
 
-interface ICard {
+interface ICoin {
     res: Result
 }
 
-export const Card = ({res} : ICard) => {
+export const Coin = ({res} : ICoin) => {
     return (
         <div>
             <img src={res.urls.small} alt={res.alt_description || 'photo'} loading="lazy" />
